@@ -1,0 +1,23 @@
+{
+  "name": "blueprint-playwright-ts",
+  "version": "1.0.0",
+  "description": "A modern Playwright + TypeScript starter kit. Kickstart your next journey with this template.",
+  "main": "index.js",
+  "scripts": {
+    "test:dev": "cross-env ENV=dev npx playwright test",
+    "test:dev-ui": "cross-env ENV=dev npx playwright test --ui",
+    "test:local": "cross-env ENV=local npx playwright test",
+    "test:local-ui": "cross-env ENV=local npx playwright test --ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.29",
+    "cross-env": "^7.0.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.0.1"
+  }
+}
